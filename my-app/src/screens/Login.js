@@ -13,7 +13,7 @@ function Login() {
 
   return (
     <>
-      <div className="container w-50 my-3 border rounded">
+      <div className="container my-3 border rounded">
         <form className="p-5" onSubmit={submitHandler}>
           <div class="form-outline mb-4">
             <label class="form-label" for="form2Example1">
