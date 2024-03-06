@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Header from "../components/Header";
 
 function Login() {
   window.scrollTo(0, 0);
@@ -13,6 +14,7 @@ function Login() {
 
   return (
     <>
+    <Header/>
       <div className="container w-50 my-3 border rounded">
         <form className="p-5" onSubmit={submitHandler}>
           <div class="form-outline mb-4">
